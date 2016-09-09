@@ -167,7 +167,7 @@ YUI().use('node', 'test-console', 'test', function (Y) {
 
     Y.Test.Runner.add(mockCase);
 
-    //create the console
+    //You can use "Y.Test.Console" or "Y.Console" here.
     (new Y.Test.Console({
         newestOnTop : false,
         filters: {
